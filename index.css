@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+.button{
+    color: #000000;
+}
+
+    .fade-in-up {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .fade-in-up.visible {
+        opacity: 5;
+        transform: translateY(0);
+    }
+    .full-height {
+            height: 10vh; /* ทำให้ความสูงของ container เท่ากับความสูงของ viewport */
+            display: flex;
+            justify-content: center; /* จัดกลางในแนวนอน */
+            align-items: center;     /* จัดกลางในแนวตั้ง */
+    }
+
+
+.card-img-top{
+    width: px;
+    height: 500px;
+}
+
